@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_button"
+            android:icon="@drawable/ic_menu_button"
+            android:title="Button" />
+        <item
+            android:id="@+id/nav_gesture"
+            android:icon="@drawable/ic_menu_gesture"
+            android:title="Gesture" />
+        <item
+            android:id="@+id/nav_gravity"
+            android:icon="@drawable/ic_menu_gravity"
+            android:title="Gravity" />
+        <item
+            android:id="@+id/nav_joystick"
+            android:icon="@drawable/ic_menu_joystick"
+            android:title="Joystick" />
+        <item
+            android:id="@+id/nav_voice"
+            android:icon="@drawable/ic_menu_voice"
+            android:title="Voice" />
+        <item
+            android:id="@+id/nav_trace"
+            android:icon="@drawable/ic_menu_trace"
+            android:title="Trace" />
+    </group>
+</menu>
+
+
+

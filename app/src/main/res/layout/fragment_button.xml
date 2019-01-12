@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_button"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="10"
+    >
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:stretchColumns="*"
+        android:layout_weight="6.5"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_weight="1"
+            >
+
+
+            <ImageView
+                android:id="@+id/left_forwarding"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/forwarding"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:src="@drawable/button_up">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/right_forwarding"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+            </ImageView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/button_left">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/stop"
+                android:src="@drawable/button_stop"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/button_right">
+            </ImageView>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/left_back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:src="@drawable/button_down">
+            </ImageView>
+
+            <ImageView
+
+                android:id="@+id/back_right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+            </ImageView>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
